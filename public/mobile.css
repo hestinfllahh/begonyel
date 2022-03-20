@@ -1,0 +1,367 @@
+@media (max-width: 576px) { 
+    @font-face{
+        font-family: "Poppins";
+        src: url(./Font/Poppins/Poppins-Regular.ttf);
+    }
+    
+    /* Header */
+    #Header .logo{
+        width: 210px;
+        height: auto;
+    }
+    
+    #Header .fa-shopping-bag{
+        color: #FFB82C;
+    }
+    
+    /* Banner */
+    #Banner .banner{
+        width: 100%;
+        height: auto;
+    }
+    
+    #Banner .FoodMarket{
+        color: #FFB82C;
+        font-size: 23px;
+    }
+    
+    #Banner .h6{
+        color: #FFB82C;
+        font-size: 23px;
+    }
+    
+    #Banner .btn-warning{
+        border-radius: 50px;
+        color: #FFFFFF;
+        width: 80px;
+        height: auto;
+        font-size: 10px;
+    }
+    
+    #Banner .btn-Light{
+        border-radius: 50px;
+        margin-right: 10px;
+        background-color: #F2F2F2;
+    }
+    
+    #Banner .h1{
+        font-size: 40px;
+        font-weight: bold;
+        color: black;
+        margin-bottom: 5%;
+    
+    } 
+    
+    /* Slider */
+    #Slider .fa-arrow-circle-left{
+        font-size: 30px;
+        color: #EC982E;
+        background-color: white;
+        border-radius: 50px;
+        background: #FFFFFF;
+        margin-right: 20px;
+    }
+    
+    #Slider .fa-arrow-circle-right{
+        font-size: 30px;
+        color: #EC982E;
+        background-color: white;
+        border-radius: 50px;
+        background: #FFFFFF;
+        margin-left: 20px;
+    }
+    
+    #Slider .carousel-indicators{
+        justify-content: start;
+    }
+    
+    #Slider .carousel-indicators [data-bs-target]{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+    
+    
+    /* CardProduct */
+    #CardProduct .price{
+        color: #FFB82C;
+        font-size: 15px;
+    }
+    
+    #CardProduct .nama-menu{
+        color: black;
+        font-size: 20px;
+    }
+    
+    #CardProduct .btn-warning{
+        border-radius: 50px;
+        color: #FFFFFF;
+        font-size: 13px;
+    }
+    
+    #LandingPage .fa-eye{
+        color: #FFB82C;
+    }
+    
+    #CardProduct .card{
+        border-radius: 20px;
+        box-shadow: black;
+        box-sizing: border-box;
+        margin-top: 15%;
+    }
+    
+    /* Footer */
+    #Footer .h5{
+        background-color: #FDF4F4;
+        font-size: 10px;
+        
+    }
+    
+    /* LandingPage */
+    #LandingPage h4 span{
+        font-weight: bold;
+    }
+    
+    #LandingPage .h4{
+        color: black;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    /* List Product */
+    #ListProduct .home{
+        color: black;
+    }
+    
+    #ListProduct .fa-home{
+        color: #FFB82C;
+    }
+    
+    #ListProduct .breadcrumb-item{
+        color: black; 
+    }
+    
+    #ListProduct .form-control{
+        color: #C3BEB8;
+    }
+    
+    #ListProduct .card{
+        border-radius: 20px;
+        box-shadow: black;
+        box-sizing: border-box;
+        margin-bottom: 15%;
+    }
+    
+    #ListProduct .btn-warning{
+        border-radius: 50px;
+        color: #FFFFFF;
+        font-size: 13px;
+        background-color: #EC982E;
+    }
+    
+    #ListProduct .price{
+        color: #EC982E;
+    }
+    
+    #ListProduct .nama-menu{
+        color: black;
+    }
+    
+    #ListProduct .form-control{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    
+    /* ProductDetail */
+    #ProductDetail .home{
+        color: black;
+    }
+    
+    #ProductDetail .fa-home{
+        color: #FFB82C;
+    }
+    
+    #ProductDetail .breadcrumb-item{
+        color: black; 
+    }
+    
+    #ProductDetail .form-control{
+        color: #C3BEB8;
+    }
+    
+    #ProductDetail .carousel-inner{
+        width: 300px;
+        height: auto;
+    }
+    
+    #ProductDetail .fa-arrow-circle-left{
+        font-size: 30px;
+        color: white;
+        background-color: #EC982E;
+        border-radius: 50px;
+        background: #EC982E;
+        margin-right: 20px;
+    }
+    
+    #ProductDetail .fa-arrow-circle-right{
+        font-size: 30px;
+        color: white;
+        background-color: #EC982E;
+        border-radius: 50px;
+        background: #EC982E;
+        margin-right : 50px;
+    }
+    
+    #ProductDetail .carousel-indicators{
+        justify-content: center;
+    }
+    
+    #ProductDetail .carousel-indicators [data-bs-target]{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+    
+    #ProductDetail .menu{
+        text-align: left;
+        margin-top: 3%;
+        color: black;
+    }
+    
+    #ProductDetail h6 span{
+        font-weight: bold;
+    }
+    
+    #ProductDetail .size{
+        font-size: 13px;
+        color: black;
+    }
+     
+    #ProductDetail .input-type{
+        width: 50px;
+        height: auto;
+        text-align: center;
+    }
+    
+    #ProductDetail .btn-warning{
+        border-radius: 50px;
+        color: #FFFFFF;
+        font-size: 10px;
+        background-color: #EC982E;
+        width: 200px;
+        height: auto;
+    }
+    
+    #ProductDetail .h4{
+        margin-top: 10%;
+        margin-bottom: 5%;
+        color: black;
+    }
+    
+    #ProductDetail .fa-eye{
+        color: #F57C00;
+    }
+    
+    /* Keranjang */
+    #Keranjang .fa-home{
+        color: #FFB82C;
+    }
+    
+    #Keranjang .breadcrumb-item{
+        color: black;
+    }
+    
+    #Keranjang .table{
+        color: #F57C00;
+        border: 1px #F57C00;
+    }
+    
+    #Keranjang .tr{
+        color: black;
+    }
+    
+    #Keranjang .menu{
+        color: black;
+        text-align: center;
+    }
+    
+    #Keranjang .banner{
+        width: 100px;
+        height: auto;
+    }
+    
+    #Keranjang .fa-trash{
+        color: #F85353;
+    }
+    
+    #Keranjang .nasi-geprek{
+        text-align: justify;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    #Keranjang .keterangan{
+        text-align: center;
+    }
+    
+    #Keranjang .harga{
+        text-align: center;
+    }
+    
+    #Keranjang .total{
+        margin-bottom: 5%;
+        margin-top: 3%;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    #Keranjang .btn-warning{
+        margin-top: 2%;
+        color: #FFFFFF;
+        width: 160px;
+        height: auto;
+        font-size: 14px;
+        border-radius: 50px;
+        margin-bottom: 30%;
+    }
+    
+    #Keranjang .form-control{
+        border-radius: 8px;
+        border: 1px solid #C3BEB8;
+        width: 350px;
+        height: auto;
+    }
+    
+    #Keranjang .form-label{
+        color: black;
+    }
+    
+    
+    
+    /* Success */
+    #Success .img{
+        width: 292px;
+        height: auto;
+        padding-top: 15%;
+        padding-bottom: 3%;
+    }
+    
+    #Success .h5{
+        color: black;
+    }
+    
+    #Success .h6{
+        color: #FFB82C;
+        padding-bottom: 2%;
+    }
+    
+    #Success .btn-warning{
+        width: 190px;
+        height: auto;
+        color: #FFFFFF;
+        font-size: 15px;
+        border-radius: 50px;
+        margin-bottom: 30%;
+    } 
+ }
