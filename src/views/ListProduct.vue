@@ -47,8 +47,7 @@
     <div class="container">
       <div class="row justify-content-start">
         <div class="col-lg-3" v-for="item in menu" :key="item.id">
-          <h3>{{item.name}}</h3>
-          <CardProduct : item = "item"/>
+          <CardProduct v-bind:menu="item" />
         </div>
       </div>
     </div>
@@ -84,7 +83,7 @@ export default {
       .get("http://localhost/begonyel/public/api/products")
       .then((response) => {
         this.menu = response.data;
-        console.log(this.menu [0].id) ;
+        //console.log(this.menu);
       })
       .catch((error) => {
         console.log(error);

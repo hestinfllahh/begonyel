@@ -18,19 +18,28 @@
       </div>
     </div>
 
-    <CardProduct/>
+    <div class="container">
+      <div class="row justify-content-start">
+        <div class="col-lg-3" 
+          v-for="item in menu" 
+          :key="item.id">
+          <CardProduct v-bind:menu="item" />
+        </div>
+      </div>
+    </div>
+    
     <Footer/>
-     
-  </div>
+</div>
 </template>
 
 <script>
-   import Header from '@/components/Header.vue'
-   import Banner from '@/components/Banner.vue'
-   import Slider from '@/components/Slider.vue'
-   import CardProduct from '@/components/CardProduct.vue'
-   import Footer from '@/components/Footer.vue'
-   
+import axios from "axios";
+import Header from '@/components/Header.vue'
+import Banner from '@/components/Banner.vue'
+import Slider from '@/components/Slider.vue'
+import CardProduct from '@/components/CardProduct.vue'
+import Footer from '@/components/Footer.vue'
+
 export default {
   name: 'LandingPage',
   components: {
@@ -39,10 +48,30 @@ export default {
   Slider,
   CardProduct,
   Footer
-  }
+  },
+
+  data() {
+    return {
+      menu: [],
+    };
+  },
+
+  method: {},
+
+  mounted() {
+    axios
+      .get("http://localhost/begonyel/public/api/products")
+      .then((response) => {
+        this.menu = response.data;
+        //console.log(this.menu);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  },
 
 
-}
+};
 </script>
 
 <style>
